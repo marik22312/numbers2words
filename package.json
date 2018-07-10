@@ -7,18 +7,22 @@
 	},
 	"author": "Tomas Jurman <tomasjurman@gmail.com>",
 	"license": "MIT",
-	"keywords": ["number", "word", "converter"],
+	"keywords": [
+		"number",
+		"word",
+		"converter"
+	],
 	"main": "./build/numbers2words.min",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Kibo/numbers2words.git"
 	},
 	"devDependencies": {
-		"grunt": "^0.4.4",
-		"grunt-contrib-jshint": "~0.6.3",
-		"grunt-contrib-uglify": "~0.2.2",
+		"grunt": "^1.0.3",
 		"grunt-contrib-concat": "^0.4.0",
-		"grunt-contrib-qunit": "^0.4.0"
+		"grunt-contrib-jshint": "^1.1.0",
+		"grunt-contrib-qunit": "^2.0.0",
+		"grunt-contrib-uglify": "^3.3.0"
 	},
 	"engines": {
 		"node": "*"
